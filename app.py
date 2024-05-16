@@ -22,12 +22,14 @@ st.header('Crea un gráfico')
 hist_button = st.button('Construir histograma') # crear un botón
 if hist_button: # al hacer clic en el botón
     titulo='Creación un diagrama de dispersión para el conjunto de datos de anuncios de venta de coches'
-    imprimirGrafico(titulo,1,['odometer'])       
+    imprimirGrafico(titulo,1,['odometer'])   
+
 #Se crea el botón para gráfico de dispersión    
 scat_button = st.button('Construir Diagrama de dispersión') # crear un botón
 if scat_button: # al hacer clic en el botón
     titulo='Creación un diagrama de dispersión para el conjunto de datos de anuncios de venta de coches'
     imprimirGrafico(titulo,2,['odometer','price'])
+    
 #Se crea el botón para gráfico de pastel
 pie_button=st.checkbox('Construir diagrama de pastel')
 if pie_button:
