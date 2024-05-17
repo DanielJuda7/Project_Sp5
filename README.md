@@ -1,6 +1,6 @@
-#Proyecto
+# Proyecto
 
-##Analisis de datos de venta de coches
+## Analisis de datos de venta de coches
 
 Este proyecto es una aplicación web en Python la cual te permite extraer información de un dataset a través de gráficos.
 ## Funcionalidades
@@ -23,4 +23,4 @@ import streamlit as st
 ## Enlaces
 ### [Aplicación en Render](https://project-sp5.onrender.com "Aplicación en Render")
 
-###[ Repositorio Github](https://github.com/DanielJuda7/Project_Sp5 " Repositorio Github")
+### [ Repositorio Github](https://github.com/DanielJuda7/Project_Sp5 " Repositorio Github")
